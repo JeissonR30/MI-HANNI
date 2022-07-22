@@ -1,0 +1,111 @@
+body {
+
+    padding: 10px;
+    margin: 0;
+    background-image: url(../imagen/fondo2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 30px;
+    font-style: oblique;
+    color:  #fff;
+    
+}
+
+.texto {
+    color: #fff;
+    padding-right: 25px;
+    padding-left: 25px;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+
+.index-post {
+    width: 1124px; transition: all 1.5s;
+    height: 364px; overflow: hidden; 
+    margin: auto;
+    display: block;
+    margin-top: 10%;
+}
+
+.contener {
+    border:  #fff  5px solid;
+    float: left;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 240px;
+    height: 320px;
+    overflow: hidden;
+    background: linear-gradient(125deg,   #263dff  10%,   #c639f3    60%);
+    border-radius: 5px;
+    box-shadow: 0 0 3px 0 #00000073;
+    transition: all 0.3s;
+}
+
+.contener:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 11px 14px rgb(0 0 0 / 25%), 0 8px 20px rgb(0 0 0 / 10%);
+}
+
+.image-contener {
+    display: block;
+    width: 100%;
+    height: 140px;
+    overflow: hidden;
+}
+
+.image-contener img {
+    width: 100%;
+}
+
+.meta-contener {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    padding: 10px 20px;
+}
+
+
+.meta-contener .desc {
+    font-size: 13px;
+    text-align: center;
+    color: #373737;
+}
+
+.button-contener {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    height: 40px;
+}
+
+.button-contener .button {
+    width: 100%;
+    padding: 6px 0;
+    text-decoration: none;
+    background: linear-gradient(125deg,  #ff3374  0%, #0091a7 60%);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s;
+
+}
+
+
+
+@media screen and (max-width:1124px){
+    .index-post{
+        width: 562px; height: 728px;
+    }
+}
+@media screen and (max-width:562px){
+    .index-post{
+        width: 281px; height: 1496px;
+    }
+}

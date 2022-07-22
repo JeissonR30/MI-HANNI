@@ -1,0 +1,27 @@
+body {
+
+    background-image: url(../imagen/fondo1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: verdana;
+    padding: 10px;
+    margin: 15px;
+    font-size: 30px;
+    font-style: oblique;
+    color:  #fff;
+    border: #fff300 10px dashed;
+}
+ 
+.texto {
+	color: #fff;
+	padding-right: 25px;
+	padding-left: 25px;
+	font-family: verdana;
+	font-size: 20px;
+}
+.regresar{
+	background-image: url(../imagen/regre.png);
+
+}
